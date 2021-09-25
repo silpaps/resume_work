@@ -1,0 +1,179 @@
+.container{
+    margin-left: 29px;
+}
+.main{
+    width: 1242px;
+    height: 967px;
+    border: 1px solid black;
+    background-color: cadetblue;
+    position: absolute;
+    left: 10px;
+    top: 2px;
+}
+
+
+.obj{
+    width: 50%;
+    height:49px;
+    border: 1px solid black;
+    margin-top: 7px;
+    margin-left: 49px;
+    background-color: rgb(235, 245, 235);
+}
+.eduhead {
+    width: 22%;
+    height:36px;
+    border: 1px solid black;
+    margin-top: 20px;
+    margin-left: 49px;
+    background-color: rgb(235, 245, 235);
+}
+.eduhead h4{
+    color: black;
+}
+.edubody{
+    width: 50%;
+    height:352px;
+    border: 1px solid black;
+    background-color: rgb(235, 245, 235);
+    margin-top: 7px;
+    margin-left: 49px;
+}
+.edubody div{
+    width: 50%;
+    height:24px;
+    /* border: 1px solid black; */
+    margin-top: 2px;
+    margin-left: 49px;
+}
+.projhead{
+    width: 22%;
+    height:36px;
+    border: 1px solid black;
+    margin-top: 20px;
+    margin-left: 729px;
+    background-color: rgb(235, 245, 235);
+}
+.projbody{
+    width: 29%;
+    height:222px;
+    border: 1px solid black;
+    margin-top: 7px;
+    margin-left: 729px;
+    background-color: rgb(235, 245, 235);
+}
+.projbody div{
+    width: 70%;
+    height: 171px;
+    border: 1px solid black;
+    margin-top: 2px;
+    margin-left: 49px;
+
+}
+.skilhead{
+    width: 29%;
+    height: 36px;
+    border: 1px solid black;
+    position: relative;
+    left: 729px;
+    top: -679px;
+    background-color: rgb(235, 245, 235);
+
+}
+.skilbody{
+    width: 29%;
+    height:350px;
+    border: 1px solid black;
+    position: relative;
+    left: 729px;
+    top: -674px;
+    background-color: rgb(235, 245, 235);
+
+}
+.Ehead{
+    width: 24%;
+    height:36px;
+    border: 1px solid black;
+    position:relative ;
+    left: 50px;
+    top: -626px;
+    background-color: rgb(235, 245, 235);
+
+}
+.Ebody{
+    width: 36%;
+    height:182px;
+    border: 1px solid black;
+    position: relative;
+    left: 50px;
+    top:-618px;
+    background-color: rgb(235, 245, 235);
+}
+.Ebody div{
+    width: 70%;
+    height: 99px;
+    border: 1px solid black;
+    margin-top: 2px;
+    margin-left: 49px;
+}
+/* @media(max-width:500px){
+    .details{
+        position: absolute;
+        left: 21px;
+        top: 46px;
+    }
+    .container
+    {
+        height: 849px;
+        margin-left: 8px;
+    }
+    .col-3{
+        width: 95px;
+    }
+    .col-9{
+        width: 75%;
+    }
+    
+} */
+@media(max-width:500px){
+    .container{
+        margin-left: 0px;
+    }
+    
+    .details{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .obj{
+        width: 515px;
+    }
+    .edubody{
+        width: 520px;
+    }
+    .main{
+        height: 1862px;
+        
+    }
+    .skilhead{
+        position: relative;
+        left: 50px;
+        top: 33px;
+    }
+    .skilbody{
+        position: relative;
+        left:50px;
+        top:42px;
+       
+    }
+    .projhead{
+        position: relative;
+        left: -679px;
+        top: 722px;
+    }
+    .projbody{
+        position: relative;
+        left: -679px;
+        top: 730px;
+    }
+}
