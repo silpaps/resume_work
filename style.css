@@ -4,7 +4,7 @@
 .main{
     width: 1242px;
     height: 967px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     background-color: cadetblue;
     position: absolute;
     left: 10px;
@@ -15,7 +15,7 @@
 .obj{
     width: 50%;
     height:49px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin-top: 7px;
     margin-left: 49px;
     background-color: rgb(235, 245, 235);
@@ -23,7 +23,7 @@
 .eduhead {
     width: 22%;
     height:36px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin-top: 20px;
     margin-left: 49px;
     background-color: rgb(235, 245, 235);
@@ -34,7 +34,7 @@
 .edubody{
     width: 50%;
     height:352px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     background-color: rgb(235, 245, 235);
     margin-top: 7px;
     margin-left: 49px;
@@ -49,7 +49,7 @@
 .projhead{
     width: 22%;
     height:36px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin-top: 20px;
     margin-left: 729px;
     background-color: rgb(235, 245, 235);
@@ -57,7 +57,7 @@
 .projbody{
     width: 29%;
     height:222px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin-top: 7px;
     margin-left: 729px;
     background-color: rgb(235, 245, 235);
@@ -65,7 +65,7 @@
 .projbody div{
     width: 70%;
     height: 171px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin-top: 2px;
     margin-left: 49px;
 
@@ -73,7 +73,7 @@
 .skilhead{
     width: 29%;
     height: 36px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     position: relative;
     left: 729px;
     top: -679px;
@@ -83,7 +83,7 @@
 .skilbody{
     width: 29%;
     height:350px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     position: relative;
     left: 729px;
     top: -674px;
@@ -93,7 +93,7 @@
 .Ehead{
     width: 24%;
     height:36px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     position:relative ;
     left: 50px;
     top: -626px;
@@ -103,7 +103,7 @@
 .Ebody{
     width: 36%;
     height:182px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     position: relative;
     left: 50px;
     top:-618px;
@@ -112,7 +112,7 @@
 .Ebody div{
     width: 70%;
     height: 99px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin-top: 2px;
     margin-left: 49px;
 }
